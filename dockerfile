@@ -1,4 +1,4 @@
-FROM cumulusprod/cellranger:8.0.1
+FROM eliko1991/cellranger:8.0.1
 
 RUN conda install -c bioconda pysam
 RUN pip install click pandas pyyaml
